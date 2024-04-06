@@ -2,13 +2,18 @@
     <div class="footer__wrapper">
         <section class="footer__section">
             <h2 class="footer__section-title">
-                <b>{{ config('other.title') }}</b>
+                <!--<b>{{ config('other.title') }}</b>b-->
             </h2>
-            <p>{{ config('other.meta_description') }}</p>
+            <!--<p>{{ config('other.meta_description') }}</p>b-->
             <i
-                class="{{ config('other.font-awesome') }} fa-tv-retro footer__icon"
-                style="font-size: 90px"
-            ></i>
+                <!--class="{{ config('other.font-awesome') }} fa-tv-retro footer__icon"b-->
+                <!--style="font-size: 90px"b-->
+            </i>
+
+<img src="/img/logo.png" alt="Lat-Team" class="footer__icon" style="width: 300px;">
+</section>
+<section>
+<a title="Apoya a Lat-Team" href="https://lat-team.com/pages/8"><img src="https://lat-team.com/img/dona.png" alt="Dona por Favor" class="footer__icon" style="width: 150px;">             
         </section>
         <section class="footer__section">
             <h2 class="footer__section-title">{{ __('common.account') }}</h2>
