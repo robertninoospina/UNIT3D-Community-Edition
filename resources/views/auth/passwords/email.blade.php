@@ -73,7 +73,7 @@
                     @endif
                     <div class="auth-form__button-container">
                         <button class="auth-form__primary-button">Reset</button>
-                        !--{{ __('auth.password-reset') }}-->
+                        <!--{{ __('auth.password-reset') }}-->
                     
                     @if (Session::has('errors') || Session::has('status'))
                         <ul class="auth-form__errors">
