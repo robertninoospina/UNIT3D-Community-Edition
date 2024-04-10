@@ -70,6 +70,15 @@
                             </li>
                         @endif
                     </ul>
+
+
+                    <style>
+                    .auth-form__text-input-group {
+                    text-align: center; /* Esto centra el contenido dentro de los elementos <p> */
+                    }
+                    </style>
+
+                    
                     <p class="auth-form__text-input-group" x-show="! recovery">
                         <label class="auth-form__label" for="code">
                             {{ __('auth.code') }}
