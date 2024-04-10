@@ -58,17 +58,17 @@
 
                 <p class="auth-form__text-input-group">
                     <label class="auth-form__label" for="username">
-                        {{ __('auth.username') }}
+                        {{-- {{ __('auth.username') }} --}}
                     </label>
                     <input id="username" class="auth-form__text-input" autocomplete="username" autofocus
-                        name="username" required type="text" value="{{ old('username') }}" />
+                        name="username" required type="text" placeholder="Username" value="{{ old('username') }}" />
                 </p>
                 <p class="auth-form__text-input-group">
                     <label class="auth-form__label" for="password">
-                        {{ __('auth.password') }}
+                        {{-- {{ __('auth.password') }} --}}
                     </label>
                     <input id="password" class="auth-form__text-input" autocomplete="current-password" name="password"
-                        required type="password" />
+                        required type="password" placeholder="Password" />
                 </p>
                 <p class="auth-form__checkbox-input-group">
                     <input id="remember" class="auth-form__checkbox-input" name="remember"
