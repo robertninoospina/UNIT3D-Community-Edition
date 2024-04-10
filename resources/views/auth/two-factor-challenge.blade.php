@@ -105,6 +105,7 @@
                         @hiddencaptcha
                     @endif
 
+                    <div class="auth-form__button-container">
                     <button class="auth-form__primary-button">{{ __('auth.login') }}</button>
                     @if (Session::has('errors'))
                         <ul class="auth-form__errors">
@@ -112,6 +113,7 @@
                                 <li class="auth-form__error">{{ $error }}</li>
                             @endforeach
                         </ul>
+                        </div>
                     @endif
 
                     <div class="discord-div">
