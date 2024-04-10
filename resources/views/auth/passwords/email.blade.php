@@ -29,7 +29,8 @@
                     @csrf
                     <a class="auth-form__branding" href="{{ route('home.index') }}">
                         <i class="fal fa-tv-retro"></i>
-                        <span class="auth-form__site-logo">{{ \config('other.title') }}</span>
+                        <img class="auth-form__site-logo-lateam" src="{{ url('/img/logo.png') }}" alt="LaTeam" />
+                        <!--<span class="auth-form__site-logo">{{ \config('other.title') }}</span>-->
                     </a>
                     @if (Session::has('warning') || Session::has('success') || Session::has('info'))
                         <ul class="auth-form__important-infos">
@@ -70,10 +71,10 @@
                     @if (config('captcha.enabled'))
                         @hiddencaptcha
                     @endif
-
-                    <button class="auth-form__primary-button">
-                        {{ __('auth.password-reset') }}
-                    </button>
+                    <div class="auth-form__button-container">
+                        <button class="auth-form__primary-button">Reset</button>
+                        !--{{ __('auth.password-reset') }}-->
+                    
                     @if (Session::has('errors') || Session::has('status'))
                         <ul class="auth-form__errors">
                             @foreach ($errors->all() as $error)
@@ -85,6 +86,13 @@
                             @endif
                         </ul>
                     @endif
+                    </div>
+                    </a>
+                <div class="discord-div">
+                    <a class="discord-widget" href="https://discord.gg/RUKj5JfEST" title="Join us on Discord">
+                        <img src="https://discordapp.com/api/guilds/838217297478680596/embed.png?style=banner3">
+                    </a>
+                    </div>
                 </form>
             </section>
         </main>
