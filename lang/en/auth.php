@@ -27,7 +27,7 @@ return [
     'application'             => 'Application',
     'apply'                   => 'Apply',
     'appl-closed'             => 'Applications Are Closed',
-    'appl-intro'              => 'es una comunidad privada. You must have an invitation link to register. If you cannot get an invitation you may fill out the following application for membership.',
+    'appl-intro'              => 'es una comunidad privada. Se debe contar con un link de invitacion valido para el registro. Si no cuentas con una invitacion valida, por favor diligencia el siguiente formulario para obtenerla.',
     'appl-reason'             => 'How Did You Hear About ":sitename" And Why Do You Want In? ',
     'application-submitted'   => 'Your Application Has Been Submitted. You will receive a email soon!',
     'banned'                  => 'This Account is Banned!',
