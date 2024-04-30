@@ -27,7 +27,7 @@ return [
     'application'             => 'Application',
     'apply'                   => 'Apply',
     'appl-closed'             => 'Applications Are Closed',
-    'appl-intro'              => 'is a closed community. You must have an invitation link to register. If you cannot get an invitation you may fill out the following application for membership.',
+    'appl-intro'              => 'es una comunidad privada. You must have an invitation link to register. If you cannot get an invitation you may fill out the following application for membership.',
     'appl-reason'             => 'How Did You Hear About ":sitename" And Why Do You Want In? ',
     'application-submitted'   => 'Your Application Has Been Submitted. You will receive a email soon!',
     'banned'                  => 'This Account is Banned!',
