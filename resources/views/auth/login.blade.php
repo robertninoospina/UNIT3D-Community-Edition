@@ -22,9 +22,15 @@
     @vite('resources/sass/pages/_auth.scss')
 </head>
 
-<body><!-- Added CSS to center the text in the username input field -->
+<body><!-- Se agrega CSS para centrar nombre de ususario y contraseña en caja de texto -->
 <style>
     #username {
+<style>
+    #password {
+        text-align: center;
+    }
+</style>
+
         text-align: center;
     }
 </style>
