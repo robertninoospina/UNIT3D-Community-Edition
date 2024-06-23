@@ -21,8 +21,14 @@
         <link rel="shortcut icon" href="{{ url('/favicon.ico') }}" type="image/x-icon" />
         <link rel="icon" href="{{ url('/favicon.ico') }}" type="image/x-icon" />
         @vite('resources/sass/pages/_auth.scss')
-    </head>
+    </head><!-- Se agrega CSS para centrar email de recuperacion en caja de texto -->
     <body>
+    <style>
+    #username {
+        text-align: center;
+    }
+    </style>
+
         <main>
             <section class="auth-form">
                 <form class="auth-form__form" method="POST" action="{{ route('password.email') }}">
