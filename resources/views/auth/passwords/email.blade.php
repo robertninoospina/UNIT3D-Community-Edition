@@ -24,7 +24,7 @@
     </head><!-- Se agrega CSS para centrar email de recuperacion en caja de texto -->
     <body>
     <style>
-    #username {
+    #email {
         text-align: center;
     }
     </style>
