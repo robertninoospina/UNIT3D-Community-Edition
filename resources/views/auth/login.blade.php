@@ -22,7 +22,13 @@
     @vite('resources/sass/pages/_auth.scss')
 </head>
 
-<body>
+<body><!-- Added CSS to center the text in the username input field -->
+<style>
+    #username {
+        text-align: center;
+    }
+</style>
+
     <!-- Do NOT Change! For Jackett Support -->
     <div class="Jackett" style="display: none">{{ config('unit3d.powered-by') }}</div>
     <!-- Do NOT Change! For Jackett Support -->
