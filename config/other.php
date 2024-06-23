@@ -21,7 +21,7 @@ return [
     |
     */
 
-    'title' => 'Lat-Team INSTALACION DE PRUEBAS',
+    'title' => 'Lat-Team ESPEJO',
 
     /*
     |--------------------------------------------------------------------------
